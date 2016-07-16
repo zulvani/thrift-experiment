@@ -1,0 +1,16 @@
+zulvani-thrift/.project
+zulvani-thrift/.classpath
+zulvani-thrift/.settings
+zulvani-thrift/target
+zulvani-thrift/target/*
+zulvani-thrift/thrift/gen-*
+
+zulvani-thrift-client/.project
+zulvani-thrift-client/.classpath
+zulvani-thrift-client/.settings
+zulvani-thrift-client/target
+zulvani-thrift-client/target/*
+
+zulvani-thrift-client-php/.project
+zulvani-thrift-client-php/.classpath
+zulvani-thrift-client-php/.settings

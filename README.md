@@ -1,7 +1,7 @@
 # thrift-experiment
-This project is implement Apache Thrift and explore these feature
+This project implement Apache Thrift and explore these feature
 
-In this project I implement thrift in 2 way
+Implement thrift in 2 way
 - Simple implementation, you can clone from branch **simple**
 - Multiplexed Processor implementation, you can clone from branch **multiplexed**
 

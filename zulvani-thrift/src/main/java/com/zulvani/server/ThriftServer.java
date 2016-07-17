@@ -15,6 +15,12 @@ import com.zulvani.MultiplyService;
 import com.zulvani.impl.AdditionServiceImpl;
 import com.zulvani.impl.MultiplyServiceImpl;
 
+/**
+ * Thanks for:
+ * http://stackoverflow.com/questions/19614648/service-multiplexing-using-apache-thrift
+ * 
+ * 
+ */
 public class ThriftServer {
 
 	public static void StartMultiplexedProcessor(){

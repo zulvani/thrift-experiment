@@ -1,4 +1,4 @@
-package com.zulvani.server;
+package com.zulvani;
 
 import org.apache.thrift.TMultiplexedProcessor;
 import org.apache.thrift.server.TServer;
@@ -9,11 +9,12 @@ import org.apache.thrift.transport.TServerSocket;
 import org.apache.thrift.transport.TServerTransport;
 import org.apache.thrift.transport.TTransportException;
 import org.apache.thrift.transport.TTransportFactory;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.zulvani.AdditionService;
-import com.zulvani.MultiplyService;
 import com.zulvani.impl.AdditionServiceImpl;
 import com.zulvani.impl.MultiplyServiceImpl;
+import com.zulvani.service.AdditionService;
+import com.zulvani.service.MultiplyService;
 
 /**
  * Thanks for:
@@ -21,6 +22,7 @@ import com.zulvani.impl.MultiplyServiceImpl;
  * 
  * 
  */
+@SpringBootApplication
 public class ThriftServer {
 
 	public static void StartMultiplexedProcessor(){
@@ -64,6 +66,7 @@ public class ThriftServer {
 	public static void main(String[] args) {
 //		StartsimpleServer(new AdditionService.Processor<AdditionServiceImpl>(new AdditionServiceImpl()));
 		StartMultiplexedProcessor();
+		
 	}
 
 }

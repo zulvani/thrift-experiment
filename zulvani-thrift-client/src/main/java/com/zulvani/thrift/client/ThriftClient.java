@@ -8,8 +8,8 @@ import org.apache.thrift.transport.TFramedTransport;
 import org.apache.thrift.transport.TSocket;
 import org.apache.thrift.transport.TTransportException;
 
-import com.zulvani.AdditionService;
-import com.zulvani.MultiplyService;
+import com.zulvani.service.AdditionService;
+import com.zulvani.service.MultiplyService;
 
 public class ThriftClient {
 

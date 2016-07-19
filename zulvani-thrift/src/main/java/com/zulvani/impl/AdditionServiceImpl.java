@@ -2,7 +2,7 @@ package com.zulvani.impl;
 
 import org.apache.thrift.TException;
 
-import com.zulvani.AdditionService;
+import com.zulvani.service.AdditionService;
 
 public class AdditionServiceImpl implements AdditionService.Iface {
 

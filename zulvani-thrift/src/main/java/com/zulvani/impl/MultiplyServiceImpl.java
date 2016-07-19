@@ -1,7 +1,8 @@
 package com.zulvani.impl;
 
 import org.apache.thrift.TException;
-import com.zulvani.MultiplyService;;
+
+import com.zulvani.service.MultiplyService;;
 
 public class MultiplyServiceImpl implements MultiplyService.Iface {
 
